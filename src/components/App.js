@@ -19,7 +19,7 @@ const App = () => {
         </h1>
       </div>
     )}
-      <button id="toggle" onClick=[()=>setData(!data)]>Toggle</button>
+      <button id="toggle" onClick={()=>setData(!data)}>Toggle</button>
     </div>
   );
 };
